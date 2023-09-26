@@ -1,0 +1,12 @@
+tkinter
+customtkinter
+OpenCV
+mediapipe
+pyautogui
+math
+enum
+ctypes
+comtypes
+pycaw
+google.protobuf.json_format
+screen_brightness_control
