@@ -492,21 +492,21 @@ def about_page():
     additional_text.place(relx=0.2, rely=0.2)
 
     # Add palm
-    image_path = r"path of palm.jpg"
+    image_path = r"E:\Projects\Mini project\Movemate\Movemate\main\SS.jpg"
     image = ImageTk.PhotoImage(Image.open(image_path))
     image_label = tkinter.Label(about_frame, image=image)
     image_label.pack(pady=24, padx=20)
     image_label.place(relx=0.2, rely=0.3, relheight=0.4, relwidth=0.4)
 
     # Add right click
-    image_path = r"path of right click.png"
+    image_path = r"E:\Projects\Mini project\Movemate\Movemate\main\SS.png"
     image = ImageTk.PhotoImage(Image.open(image_path))
     image_label = tkinter.Label(about_frame, image=image)
     image_label.pack(pady=24, padx=20)
     image_label.place(relx=0.4, rely=0.5, relheight=0.4, relwidth=0.2)
 
     # Add Move
-    image_path = r"path ofmove.png"
+    image_path = r"E:\Projects\Mini project\Movemate\Movemate\main\SS.png"
     image = ImageTk.PhotoImage(Image.open(image_path))
     image_label = tkinter.Label(about_frame, image=image)
     image_label.pack(pady=24, padx=20)
@@ -526,7 +526,7 @@ def about_page():
 def go_to_home():
     global current_frame
 
-    side_bar = r"path of side bar"
+    side_bar = r"E:\Projects\Mini project\Movemate\Movemate\main\Side_Bar\SIDE_BAR.png"
 
     if current_frame is not None:
         current_frame.destroy()
@@ -615,7 +615,7 @@ def go_to_home():
     label8.pack(pady=24, padx=20, expand=True)
     label8.place(relx=0.15, rely=0.8)
 
-side_bar = r"path of side bar"
+side_bar = r"E:\Projects\Mini project\Movemate\Movemate\main\Side_Bar\SIDE_BAR.png"
 
 frame1 = customtkinter.CTkFrame(master=root)
 frame1.pack(fill="both", expand=True)

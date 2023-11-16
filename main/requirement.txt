@@ -1,8 +1,3 @@
-tkinter
-customtkinter
-OpenCV
-mediapipe
-pyautogui
 math
 enum
 ctypes
